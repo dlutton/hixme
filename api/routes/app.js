@@ -6,7 +6,7 @@ const summary = require('./middleware/summary');
 // Set pretty json
 app.set('json spaces', 2);
 
-// Handle the summary endpoing
+// Handle the summary endpoint
 app.use('/api/summary', summary);
 
 // Handle 404
